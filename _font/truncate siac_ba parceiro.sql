@@ -1,0 +1,9 @@
+truncate ativeconpj;
+truncate contato;
+truncate comunicacao;
+truncate endereco;
+truncate historicorealizacoescliente;
+truncate historicorealizacoescliente_anosanteriores;
+truncate pessoaf;
+truncate pessoaj;
+truncate parceiro;

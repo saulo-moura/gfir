@@ -1,0 +1,10 @@
+<?php
+$idCampo = 'idt';
+$Tela = "o painel";
+
+//Monta o vetor de Campo
+$vetCampo['classificacao'] = CriaVetTabela('Classificação');
+$vetCampo['descricao'] = CriaVetTabela('Descrição');
+$vetCampo['codigo'] = CriaVetTabela('Código');
+
+$sql = 'select * from plu_painel order by classificacao';

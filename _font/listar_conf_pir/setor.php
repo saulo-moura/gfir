@@ -1,0 +1,12 @@
+<?php
+$idCampo = 'idt';
+$Tela = "o Setor";
+
+
+//Monta o vetor de Campo
+$vetCampo['codigo'] = CriaVetTabela('Código');
+$vetCampo['descricao'] = CriaVetTabela('Descrição');
+
+$sql  = 'select * from setor order by codigo';
+
+?>

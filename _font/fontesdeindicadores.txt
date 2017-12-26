@@ -1,0 +1,16 @@
+admin
+     conteudo_painel_Indicadores.php
+     incpainel_indicadores_menu.php
+     incexporta_dw_xls.php
+     gerar_indicadores.bat
+     gerar_indicadores.php  
+
+
+cadastro_conf
+     //
+     grc_indicador_obs.php
+     grc_indicador_q1.php  
+     grc_indicador_q2.php
+     grc_indicador_q3.php
+     grc_indicador_q5.php      
+     //

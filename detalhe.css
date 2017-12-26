@@ -1,0 +1,83 @@
+div.detalhe_tit16bc_old, div.detalhe_tit16bcinza {
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+div.detalhe_tit16bc {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	sbackground:#C0C0C0;
+	height:28px;
+    background: #EBEBEB url(imagens/rodape_lista.jpg) repeat ;
+    
+  	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color: #F7F7F7;
+	
+	margin:0px;
+	padding:0px;
+	padding-left:10px;
+	text-align: center;
+	border-collapse: collapse;
+	overflow:hidden;
+
+
+}
+
+div.detalhe_tit16bc span.oas {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div.detalhe_fbmb10 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+div.detalhe_c {
+	text-align: left;
+        margin-top: 10px;
+}
+
+div.detalhe_cmt10 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.detalhe_cmb10 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div.detalhe_desc12b_mb10, div.detalhe_desc12b_mb10c {
+	font-size: 13px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-left: 10px;
+        color: #999999;
+}
+
+div.detalhe_desc12b_mb10c {
+	color: #999999;
+}
+
+div.detalhe_tit12b_mb10 {
+	font-size: 13px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-left: 10px;	
+	font-weight: bold;
+}
+
+div.detalhe_mb10{
+    text-align: left;
+}
+
+div.detalhe_tit12b{
+    text-align: left;
+}

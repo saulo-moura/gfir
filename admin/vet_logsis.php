@@ -1,0 +1,36 @@
+<?php
+$vetLogSis['ajuda'] = 'codigo, descricao';
+$vetLogSisDes['ajuda'] = 'Código, Descrição';
+
+$vetLogSis['config'] = 'descricao, valor';
+$vetLogSisDes['config'] = 'Configuração, Valor';
+
+$vetLogSis['direito'] = 'cod_direito, nm_direito';
+$vetLogSisDes['direito'] = 'Código, Direito';
+
+$vetLogSis['erro_msg'] = 'origem_msg, num_erro';
+$vetLogSisDes['erro_msg'] = 'Origem, Nº do Erro';
+
+$vetLogSis['funcao'] = 'cod_funcao, nm_funcao';
+$vetLogSisDes['funcao'] = 'Código, Função';
+
+$vetLogSis['html'] = 'menu, des_titulo';
+$vetLogSisDes['html'] = 'Menu, Titulo';
+
+$vetLogSis['mime_arquivo'] = 'des_extensao';
+$vetLogSisDes['mime_arquivo'] = 'Extensão';
+
+$vetLogSis['mime_grupo'] = 'cod_grupo, des_gurpo';
+$vetLogSisDes['mime_grupo'] = 'Código, Descrição';
+
+$vetLogSis['mime_tipo'] = 'idt_miar, des_tipo';
+$vetLogSisDes['mime_tipo'] = 'IDT do Arquivo, Mime do Arquivo';
+
+$vetLogSis['perfil'] = 'nm_perfil';
+$vetLogSisDes['perfil'] = 'Perfil do Usuário';
+
+$vetLogSis['usuario'] = 'nome_completo, login';
+$vetLogSisDes['usuario'] = 'Nome Completo, Login';
+
+$vetLogSis['empreendimento'] = 'descricao, estado';
+$vetLogSisDes['empreendimento'] = 'Descrição, Estado';

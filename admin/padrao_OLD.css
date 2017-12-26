@@ -1,0 +1,632 @@
+/* Padrao */
+Table.Generica {
+    border: 1px solid #858585;
+    border-collapse: collapse;
+}
+
+Tr.Generica {
+    background: #EBEBEB;
+}
+
+Tr.Barra {
+    background: #EBEBEB;
+}
+
+Tr.Barra Td.Titulo img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+Tr.Barra Td.Titulo div {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+Div.Barra {
+    border: 1px solid #858585;
+    border-collapse: collapse;
+    background: #EBEBEB;
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+Td.Titulo {
+    border: 1px solid #858585;
+    border-collapse: collapse;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #022B7B;
+    padding: 3px;
+    word-spacing: 0px;
+}
+
+Tr.Registro {
+    background-color: White;
+}
+
+Td.Registro {
+    border : 1px solid #858585;
+    border-collapse : collapse;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 12px;
+    font-style : normal;
+    font-weight : normal;
+    color: Black;
+    padding: 3px;
+    word-spacing : 0px;
+}
+
+A.Titulo:link, A.Titulo:visited, A.Titulo:active  {
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #022B7B;
+    word-spacing: 0px;
+}
+
+A.Titulo:hover  {
+    text-decoration : underline;
+}
+
+A.Registro:link, A.Registro:visited, A.Registro:active  {
+    text-decoration: none;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: Black;
+    word-spacing: 0px;
+}
+
+A.Registro:hover  {
+    text-decoration : underline;
+}
+
+A.FileLink:link, A.FileLink:visited, A.FileLink:active  {
+    text-decoration: none;
+    color: Black;
+}
+
+A.FileLink:hover  {
+    text-decoration : underline;
+}
+
+.Titulo {
+    font-family : Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #678053;
+    font-weight: bold;
+}
+
+Table#Tabela_Filtro {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+Table.Perfil {
+    border : 1px solid Black;
+    width : 715px;
+    border-collapse : collapse;
+}
+
+Td.Perfil_Titulo {
+    border : 1px solid Black;
+    background-color : #757575;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 12px;
+    word-spacing : 0px;
+    letter-spacing : 0px;
+    font-weight : bold;
+    color : White;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+Td.Perfil_Registro {
+    border: 1px solid Black;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    color: Black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+iframe#MenuGeral {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.Tit_Campo_Obr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #00297B;
+}
+
+.Tit_Campo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #678053;
+}
+
+.Tit_Campo_Obr span.asterisco, .Tit_Campo span.asterisco {
+    visibility: visible;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+.Tit_Campo span.asterisco {
+    visibility: hidden;
+}
+
+.Texto {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #508098;
+    font-size: 13px;
+    line-height: 17px;
+    height: 20px;
+}
+
+.TextoFixo {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #508098;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.File {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #508098;
+    font-size : 13px;
+    line-height : 17px;
+    height: 20px;
+    width : 100%;
+}
+
+.TextArea {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 1px solid #508098;
+    font-size: 13px;
+    line-height: 17px;
+    height: 70px;
+    width: 99.6%;
+}
+
+.TextoLivre {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #508098;
+    font-size: 13px;
+    line-height: 16px;
+    width: 90%;
+}
+
+Select {
+    font-family: "Courier New", Courier, monospace;
+    background: #F6F6F6;
+    color: #000000;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 1px solid #508098;
+    font-size : 13px;
+    line-height : 17px;
+}
+
+Input.Botao {
+    background: Silver;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 1px solid #508098;
+    font-size: 12px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.Msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: Red;
+    font-weight: bold;
+}
+
+.campo_focus {
+    border: 1px double red;
+    background-color: #FFFFFF;
+}
+
+.campo_disabled {
+    background-color: #FFFFD7;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr {
+    padding-top: 5px;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr div {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+/* Site */
+body {
+    margin: 0px;
+    background-color: #dddbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+span#carregando {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+}
+
+span#carregando img {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#topo_barra {
+    padding: 3px;
+    padding-right: 10px;
+    text-align: right;
+    background-color: #dddbdb;
+    color: #464646;
+}
+
+div#topo_barra a {
+    text-decoration: none;
+    color: #464646;
+}
+
+div#topo_barra a:hover {
+    text-decoration: underline;
+}
+
+div#geral {
+    width: 780px;
+    background-color: White;
+}
+
+div#geral_login {
+    width: 780px;
+}
+
+div#fundo_login {
+    background: url(imagens/login_fundo.jpg) no-repeat left top;
+    height: 560px;
+}
+
+div.Login {
+    padding-left : 545px;
+    padding-top : 314px;
+}
+
+div.Senha {
+    padding-left : 545px;
+    padding-top : 12px;
+}
+
+div.Login input, div.Senha input {
+    border: 1px solid #d9251a;
+    width: 210px;
+}
+
+.BtSenha {
+    cursor: pointer;
+    margin-left : 590px;
+    margin-top : 16px;
+    width: 78px;
+    height: 16px;
+}
+
+.ie .BtSenha {
+    margin-top : 12px;
+}
+
+.BtEnter {
+    cursor: pointer;
+    margin-left : 689px;
+    margin-top : -15px;
+    width: 68px;
+    height: 18px;
+}
+
+.ie .BtEnter {
+    margin-top : -29px;
+}
+
+div#meio {
+    text-align: left;
+    padding-bottom: 20px;
+    overflow: hidden;
+    width: 600px;
+    float:right;
+    background: white;
+
+}
+
+div#conteudo {
+    text-align: left;
+    spadding-left: 10px;
+    spadding-right: 10px;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+    overflow: hidden;
+}
+
+div.conteudo_max {
+    width: 695px;
+}
+
+div#rodape {
+    background: url(imagens/rodape.jpg) no-repeat;
+    background-color: White;
+    width: 780px;
+    height: 176px;
+    float:right;
+}
+
+div#rodape div {
+    background-color: transparent;
+    font-family : Arial, Helvetica, sans-serif;
+    margin-top: 145px;
+    font-style: normal;
+    font-weight: normal;
+    word-spacing: 0px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+div#rodape a {
+    font-size: 9px;
+    color: Gray;
+    text-decoration: none;
+}
+
+div#rodape a:hover {
+    text-decoration: underline;
+}
+
+div#topo {
+    padding: 0px;
+    margin: 0px;
+    background: url(imagens/topo.jpg) no-repeat;
+    width: 780px;
+    height: 178px;
+}
+
+div#topo div#barra_topo {
+    height: 15px;
+    width: 598px;
+    margin-left: 182px;
+    margin-top: 4px;
+    color: White;
+    font-weight: bold;
+}
+
+div#topo div#barra_topo a {
+    color: White;
+    text-decoration: none;
+}
+
+div#topo div#barra_topo a:hover {
+    text-decoration: underline;
+}
+
+div#topo div#barra_topo div#usuario {
+    float: left;
+    padding-left: 10px;
+    width: 390px;
+    height: 15px;
+    overflow: hidden;
+    text-align: left;
+}
+
+div#topo div#barra_topo div#resto {
+    float: right;
+    width: 178px;
+    padding-right: 10px;
+    height: 15px;
+    overflow: hidden;
+}
+
+div#topo div#barra_topo div#resto img {
+    vertical-align: middle;
+}
+
+div#barra_menu {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    smargin-top :20px;
+    
+    spadding-bottom: 8px;
+    
+    sheight: 26px;
+    sheight: 52px;
+    height: 396px;
+    width: 170px;
+    float:left;
+    background: white url(imagens/fundo_menu_h.jpg) no-repeat;
+
+}
+
+div#meio_util {
+    background:#FFFFFF
+
+}
+
+div#menu {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div#barra_a {
+    border: 1px solid #858585;
+    background-color: #EBEBEB;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+div#barra_a a {
+    text-decoration: none;
+    display: block;
+    color: Black;
+}
+
+div#barra_a a:hover {
+    color: White;
+    background-color: #3C87B1;
+}
+
+div#geral_ajuda {
+    width: 760px;
+}
+
+div#topo_ajuda {
+    height: 52px;
+    background: url(imagens/ajuda_topo.jpg) no-repeat;
+    text-align: left;
+}
+
+div#topo_ajuda td.barra {
+    padding-left: 5px;
+    padding-top: 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+div#meio_ajuda {
+    background: url(imagens/ajuda_meio.jpg) repeat-y;
+    text-align: left;
+}
+
+div#conteudo_ajuda {
+    text-align: left;
+    padding-left: 23px;
+    padding-right: 25px;
+    min-height: 100px;
+}
+
+div#rodape_ajuda {
+    height: 31px;
+    background: url(imagens/ajuda_rodape.jpg) no-repeat;
+    text-align: center;
+}
+
+div#geral_popup {
+    width: 700px;
+}
+
+div#topo_popup {
+    height: 31px;
+    background: url(imagens/popup_topo.jpg) no-repeat;
+    text-align: left;
+}
+
+div#meio_popup {
+    background: url(imagens/popup_meio.jpg) repeat-y;
+    text-align: left;
+}
+
+div#conteudo_popup {
+    background: url(imagens/popup_conteudo.jpg) repeat-y;
+    text-align: left;
+    padding-left: 23px;
+    padding-right: 25px;
+    min-height: 100px;
+}
+
+div#rodape_popup {
+    height: 31px;
+    background: url(imagens/popup_rodape.jpg) no-repeat;
+    text-align: center;
+}
+
+fieldset.frame {
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+fieldset.frame div {
+    padding: 3px;
+}
+
+fieldset.frame legend {
+    color: #00297B;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 8px;
+    font-weight: bold;
+    line-height: 12px;
+}

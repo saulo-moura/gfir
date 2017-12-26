@@ -1,0 +1,174 @@
+.barra_ferramentas {
+	display: block;
+	background-color: RGB(230,230,230);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: RGB(192,192,192);
+}
+
+img.bartar  {
+	xborder: 1px solid RGB(192,192,192);
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+
+table.Geral {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: Black;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table.Geral_tot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: Black;
+	text-align: left;
+	border: 1px solid Black;
+	border-collapse: collapse;
+	border-top-width: 0px;
+}
+
+tr.linha_cab_tabela {
+    background-color: #F1F1F1;
+	font-weight: normal;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px;
+}        
+
+tr.linha_cab_tabela_tot {
+	background-color: #EBEBEB;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid Black;
+	border-collapse: collapse;
+	border-top-width: 0px;
+	padding: 2px;
+
+}        
+
+
+td.linha_cab_tabela {
+    background-color: #F1F1F1;
+	font-weight: normal;
+	text-align: center;
+	border-top: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-collapse: collapse;
+	padding: 2px;
+}        
+
+
+td.linha_tabela {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: White;
+	border-bottom: 1px solid #C0C0C0;
+	border-left: 1px solid #C0C0C0;
+	border-collapse: collapse;
+	padding: 2px;
+}        
+
+Table#Tabela_Filtro {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+Table#Tabela_Filtro .Tit_Campo_Obr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+Table#Tabela_Filtro .Texto {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 2px;
+	padding-right: 10px;
+	font-size: 12px;
+	line-height: 16px;
+	height: 19px;
+}
+
+
+table.Geral_t {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #950000;
+	text-align: left;
+	border: 0px solid Black;
+	border-collapse: collapse;
+}
+
+tr.linha_cab_tabela_t {
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+	border: 0px solid Black;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+table.Geral_t_pa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #9B0000;
+	text-align: left;
+	border: 0px solid #FFFFFF;
+	border-collapse: collapse;
+}
+
+tr.linha_cab_tabela_t_pa {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	border: 0px solid #B00000;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+table.Geral_pa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF3C3C;
+	text-align: left;
+	border: 1px solid #840000;
+	border-collapse: collapse;
+}
+
+tr.linha_cab_tabela_pa {
+	background-color: #EBEBEB;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #840000;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+td.linha_tabela_pa {
+	background-color: White;
+	border: 1px solid Black;
+	border-collapse: collapse;
+	padding: 2px;
+	padding-left: 5px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #151515;
+	text-align: left;
+
+	
+	
+}

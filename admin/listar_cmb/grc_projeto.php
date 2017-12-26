@@ -1,0 +1,97 @@
+<?php
+$idCampo = 'idt';
+$Tela = "o Projeto";
+
+$TabelaPrinc = "grc_projeto";
+$AliasPric = "grc_pro";
+$Entidade = "Projeto";
+$Entidade_p = "Projetos";
+$barra_inc_h = "Incluir um Novo Registro de {$Entidade}";
+$contlinfim = "Existem #qt {$Entidade_p}.";
+
+
+// Filtro de texto
+$Filtro = Array();
+$Filtro['rs'] = 'Texto';
+$Filtro['id'] = 'texto';
+$Filtro['js_tam'] = '0';
+$Filtro['nome'] = 'Texto';
+$Filtro['valor'] = trata_id($Filtro);
+$vetFiltro['texto'] = $Filtro;
+
+// Vetor com campos da tela
+$vetCampo['descricao'] = CriaVetTabela('Descrição');
+$vetCampo['gestor'] = CriaVetTabela('Gestor');
+$vetCampo['etapa'] = CriaVetTabela('Fase');
+
+
+$sql = "select ";
+$sql .= "   {$AliasPric}.*, grc_ps.descricao as etapa, ";
+$sql .= "    grc_pro.descricao as {$campoDescListarCmb}";
+$sql .= " from {$TabelaPrinc} as {$AliasPric} ";
+$sql .= " left join grc_projeto_situacao grc_ps on grc_ps.idt = {$AliasPric}.idt_projeto_situacao ";
+$sql .= ' where 1 = 1';
+
+$sql .= ' and ativo_siacweb  = ' . aspa('S');
+$sql .= ' and existe_siacweb = ' . aspa('S');
+
+if ($_GET['idt_unidade'] != '') {
+    $sql .= " and {$AliasPric}.idt in (";
+    $sql .= ' select idt_projeto from grc_projeto_acao';
+    $sql .= ' where ativo_siacweb  = ' . aspa('S');
+    $sql .= ' and existe_siacweb = ' . aspa('S');
+    $sql .= " and idt_unidade = " . null($_GET['idt_unidade']);
+    $sql .= ' )';
+}
+
+if ($_GET['veio'] == 'SG') {
+    $sql .= " and {$AliasPric}.idt in (";
+    $sql .= ' select idt_projeto from grc_projeto_acao';
+    $sql .= ' where ativo_siacweb  = ' . aspa('S');
+    $sql .= ' and existe_siacweb = ' . aspa('S');
+    $sql .= " and contrapartida_sgtec IS NOT NULL ";
+    $sql .= ' )';
+}
+
+if ($vetFiltro['texto']['valor'] != "") {
+    $sql .= ' and ';
+    $sql .= ' ( ';
+    $sql .= '    lower(' . $AliasPric . '.codigo)      like lower(' . aspa($vetFiltro['texto']['valor'], '%', '%') . ')';
+    $sql .= ' or lower(' . $AliasPric . '.descricao) like lower(' . aspa($vetFiltro['texto']['valor'], '%', '%') . ')';
+    $sql .= ' ) ';
+}
+
+switch ($_GET['veiocad']) {
+    case 'grc_evento':
+        /*
+          20	Em Ajuste de Ações
+          110	Em Análise a Solicitação de Encerramento de Projeto Descontinuado
+          125	Em Análise a Solicitação de Encerramento de Projeto Concluído
+          126	Em Análise a Solicitação de Encerramento de Projeto Descontinuado
+          140	Em Análise da Solicitação de Reestruturação
+          225	Pactuação do Comitê Nacional
+          240	Em Repactuação
+          300	Em Classificação
+          360	Em Análise o Ajuste e a Reclassificação
+          420	Em Orçamento
+          430	Em Orçamento Complementar
+          450	Orçamento em Liberação por Encerramento
+          480	Orçamento Ajustado em Análise
+          530	Orçamento Ajustado em Liberação pelo Financeiro
+          10	Em Ajuste
+          60	Em Análise de Consistência da Reestruturação
+          100	Em Análise a Solicitação de Encerramento de Projeto Concluído
+          120	Em Análise a Solicitação de Encerramento de Projeto não Estruturado
+          230	Em Reestruturação
+          260	Em Execução
+          440	Orçamento em Ajuste
+          540	Orçamento Aguardando Aprovação PPA
+         * 
+         */
+        $sql .= " and grc_ps.codigo in ('20', '110', '125', '126', '140', '225', '240', '300', '360', '420', '430', '450', '480', '530', '10', '60', '100', '120', '230', '260', '440', '540')";
+        break;
+}
+
+if ($sqlOrderby == '') {
+    $sqlOrderby = "descricao asc";
+}

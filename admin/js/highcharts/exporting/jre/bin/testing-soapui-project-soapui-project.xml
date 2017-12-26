@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="testing-soapui-project" resourceRoot="" soapui-version="4.0.2-SNAPSHOT" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/></con:soapui-project>

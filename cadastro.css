@@ -1,0 +1,199 @@
+.Tit_Campo_Obr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #00297B;
+}
+
+.Tit_Campo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #00297B;
+}
+
+.Tit_Campo_Obr span.asterisco, .Tit_Campo span.asterisco {
+    visibility: visible;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 3px;
+    xcolor: #5488AE;
+}
+
+.Tit_Campo span.asterisco {
+    visibility: hidden;
+}
+
+
+.Texto {
+    font-family: "Courier New", Courier, monospace;
+    xbackground: #F6F6F6;
+    xcolor: #000000;
+    margin: 0px;
+    padding: 0px;
+    xborder: 1px solid #D9E3EC;
+    font-size: 13px;
+    line-height: 17px;
+    height: 20px;
+}
+
+.TextoFixo {
+	font-family: "Courier New", Courier, monospace;
+	background: #F6F6F6;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #508098;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+div.campos_ob{
+    text-align: left;
+    font-size: 11px
+}
+
+.File {
+	font-family: "Courier New", Courier, monospace;
+	background: #F6F6F6;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #508098;
+	font-size : 13px;
+	line-height : 17px;
+	height: 20px;
+	width : 100%;
+}
+
+.TextArea {
+	font-family: "Courier New", Courier, monospace;
+	xbackground: #F6F6F6;
+	color: #000000;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	xborder: 1px solid #508098;
+	font-size: 13px;
+	line-height: 17px;
+	height: 70px;
+	width: 99.6%;
+}
+
+.TextoLivre {
+	font-family: "Courier New", Courier, monospace;
+	background: #F6F6F6;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #508098;
+	font-size: 13px;
+	line-height: 16px;
+	width: 90%;
+}
+
+Select {
+	font-family: "Courier New", Courier, monospace;
+	xbackground: #F6F6F6;
+	color: #000000;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	xborder: 1px solid #508098;
+	font-size : 13px;
+	line-height : 17px;
+}
+
+Input.Botao {
+    background: #8FB7DA;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: 1px solid #508098;
+    font-size: 12px;
+    height: 22px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Msg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: Red;
+	font-weight: bold;
+}
+
+.campo_focus {
+	border: 1px double red;
+	background-color: #FFFFFF;
+}
+
+.campo_disabled {
+	background-color: #FFFFD7;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr {
+	padding-top: 5px;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+Tr.Barra_Filtro Td.Tit_Campo_Obr div {
+	display: inline;
+	margin-right: 5px;
+	margin-left: 3px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+        text-align: left;
+}
+
+fieldset.frame {
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+fieldset.frame div {
+	padding: 3px;
+}
+
+fieldset.frame legend {
+	color: #00297B;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 8px;
+	font-weight: bold;
+	line-height: 12px;
+}
+
+Div.Barra {
+    font-weight: bold;
+    padding: 3px;
+    margin-top: 3px;
+    font-size: 11px;
+    text-align: center;
+}
+

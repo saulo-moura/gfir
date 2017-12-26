@@ -1,0 +1,283 @@
+div span.desc,
+td span.desc {
+	font-weight: bold;
+}
+
+div.listar_tit12 {
+	font-size: 11px;
+}
+
+
+div.listar_tit12b {
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+div.listar_b {
+	font-weight: bold;
+}
+
+td.listar_c{
+	margin-left: 10px;
+	text-align: center;
+        xborder: 1px solid black;
+        xbackground-color: #EBEBEB;
+        width: 155px;
+        height: 120px;
+        padding-bottom: 5px;
+}
+
+div.listar_tit12b_mb10 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+div.listar_tit12b_mb10 a{
+	color: Black;
+}
+
+div.listar_desc12b_mt10 {
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+div.listar_desc12b_mb10 {
+	font-size: 13px;
+	margin-bottom: 10px;
+        color: #999999;
+}
+
+div.listar_inline {
+	display: inline;
+}
+
+div.listar_inline_mr5 {
+	display: inline;
+	margin-right: 5px;
+}
+
+div.listar_inline_bmr5 {
+	display: inline;
+	font-weight: bold;
+	margin-right: 5px;	
+}
+
+div.listar_inline_mr5 a{
+	display: inline;
+	margin-right: 5px;
+	padding-left: 10px;
+	color: Black;	
+	margin-top: 10px;
+}
+
+div.listar_inline_mr20 {
+	display: inline;
+	margin-right: 20px;
+}
+
+div.listar_mt10mb10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.listar_mb10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+div.listar_mb3 {
+	margin-bottom: 3px;
+}
+
+table.listar_tabela {
+	width: 100%;
+}
+
+table.listar_tabela tr.par {
+	background-color: #F8F7F2;
+	sbackground-color: #FFE1E1;
+	background-color: #E6E6E6;
+}
+
+table.listar_tabela tr.impar {
+	background-color: transparent;
+}
+
+table.listar_tabela td {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	xpadding: 2px 5px;
+	padding: 3px;
+}
+
+table.listar_tabela tr.titulo {
+	background-color: #EBEBEB;
+	sbackground-color: #A80000;
+}
+
+table.listar_tabela tr.titulo td {
+	padding: 2px 5px;
+	font-weight: bold;
+}
+
+div#espaco{
+    background: url(imagens/trans.gif) repeat-x;
+    width: 10px;
+    sheight: 18px;
+    height: 9px;
+}
+
+table.listar_tabela tr.lst_paginacao {
+	background-color: #EBEBEB;
+}
+
+table.listar_tabela tr.lst_paginacao td {
+	padding: 2px 5px;
+	text-align: center;
+}
+
+table.listar_tabela td.listar_pbt5_w100 {
+	width: 100px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+td.listar_servico_img {
+	width: 140px;
+	vertical-align: top;
+	padding-left: 10px;	
+}
+
+td.listar_servico_txt {
+	width: 200px;
+	vertical-align: top;
+	text-align: justify;
+	margin-left: 15px;
+}
+
+.voltar{
+	text-align: center;
+	text-align: left;
+}
+
+td.listar_tit14b_tp {
+	font-size: 11px;
+	font-weight: normal;
+	text-align: center   ;
+	padding-right:50px;
+}
+
+td.listar_tit14b {
+	font-size: 11px;
+	font-weight: bold;
+}
+td.listar_tit14b span {
+	font-size: 11px;
+	font-weight: normal;
+	color:#363636;
+}
+div.listar_tit14b span.oas {
+	font-size: 11px;
+	font-weight: bold;
+}
+td.listar_tit14b_mb10 span {
+	font-size: 11px;
+	font-weight: bold;
+	color:#363636;
+}
+td.listar_tit14b_right {
+	text-align:right;
+}
+
+
+td.listar_tit14b_right_tp {
+	text-align:right;
+	padding-right:40px;
+}
+
+td.listar_tit14b_right_tpqt {
+	text-align:center;
+}
+
+
+
+td.Titulo_right_tp {
+	text-align:right;
+
+	padding-right:40px;
+}
+
+td.Titulo_right_tp span {
+	text-align:right;
+
+	padding-right:40px;
+}
+
+
+td.Titulo_right_tpqt {
+	text-align:center;
+
+	spadding-right:40px;
+}
+
+td.Titulo_right_tpqt span {
+	text-align:center;
+
+	spadding-right:40px;
+}
+
+td.Titulo_right {
+	text-align:right;
+}
+
+td.listar_tit14b_right_tp span {
+	text-align:right;
+	padding-right:40px;
+}
+
+
+td.listar_tit14b_right_b {
+	text-align:right;
+	font-weight: bold;
+	padding-right:20px;
+}
+td.listar_tit14b_right_b span {
+	font-size: 13px;
+	font-weight: bold;
+	color:#363636;
+	text-align:right;
+	padding-right:50px;
+}
+td.listar_tit14b_right span {
+	font-size: 13px;
+	font-weight: normal;
+	color:#363636;
+	text-align:right;
+
+}
+td.Titulo_right  {
+	text-align:right;
+	font-family: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    color: #FFFFFF;
+    word-spacing: 0px;
+    background: #EBEBEB url(imagens/rodape_lista.jpg) repeat ;
+    sheight:28px;
+    border:0px;
+}
+
+td.Titulo_left  {
+	text-align:left;
+	font-family: Calibri, Arial, Verdana, Helvetica, sans-serif;
+    color: #FFFFFF;
+    word-spacing: 0px;
+     background: #EBEBEB url(imagens/rodape_lista.jpg) repeat ;
+    sheight:28px;
+    border:0px;
+}
+
+

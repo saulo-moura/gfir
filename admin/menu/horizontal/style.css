@@ -1,0 +1,144 @@
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+.qmmc .qmdivider{
+    display:block;
+    font-size:1px;
+    border-width:0px;
+    border-style:solid;
+}
+
+.qmmc .qmdividery{
+    float:left;
+    width:0px;
+}
+
+.qmmc .qmtitle{
+    display:block;
+    cursor:default;
+    white-space:nowrap;
+}
+
+.qmclear {
+    font-size:1px;
+    height:0px;
+    width:0px;
+    clear:left;
+    line-height:0px;
+    display:block;
+}
+
+.qmmc {
+    position:relative;
+    height:1%;
+}
+
+.qmmc a, .qmmc li {
+    float:left;
+    display:block;
+    white-space:nowrap;
+}
+
+.qmmc div a, .qmmc ul a, .qmmc ul li {
+    float:none;
+}
+
+.qmsh div a {
+    float:left;
+}
+
+.qmmc div {
+    visibility:hidden;
+    position:absolute;
+}
+
+/*!!!!!!!!!!! QuickMenu Styles [Please Modify!] !!!!!!!!!!!*/
+/* QuickMenu 0 */
+
+#qm0 {
+	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#qm0 a{ /* Item Principal */
+    padding:5px 4px 5px 5px;
+    color: #5388ae;
+	sfont-weight: bold;
+	font-weight: normal;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+}
+
+#qm0 div{
+    padding:4px;
+    margin:0px 0px 0px;
+    background-color:#5388ae;
+    border-style:none;
+}
+
+#qm0 div a{ /* Item do Menu */
+    padding:3px 10px 3px 5px;
+    background-color:transparent;
+    font-size:12px;
+    border-width:0px;
+    border-style:none;
+    color:White;
+}
+
+#qm0 div a:hover{
+    background-color:#dadada;
+    color:#cc0000;
+}
+
+#qm0 .qmactive, #qm0 a:hover {
+    background-color:#5388ae;
+    color: White;
+}
+
+body #qm0 div .qmactive, body #qm0 div .qmactive:hover{
+    background-color:#dadada;
+    color:#cc0000;
+}
+
+#qm0 .qmtitle{
+    cursor:default;
+    padding:3px 0px 3px 4px;
+    color:#444444;
+    font-family:arial;
+    font-size:11px;
+    font-weight:bold;
+}
+
+#qm0 .qmdividerx{
+    border-top-width:1px;
+    margin:4px 0px;
+    border-color:#bfbfbf;
+}
+
+#qm0 .qmdividery{
+    border-left: 1px solid #a4cae5;
+	 border-right: 1px solid White;
+    height: 26px;
+	 padding: 0px;
+    margin: 0px;
+}
+
+#qm0 .qmritem span{
+    border-color:#dadada;
+    background-color:#f7f7f7;
+}
+
+#qm0 .qmritemcontent{ /* Principal selecionado */
+    padding:0px 0px 0px 4px;
+    color:White;
+	 background-color: #5388ae
+}
+
+#qm0 span.linha {
+	/* Linha do Menu */
+	display: block;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	cursor: default;
+	font-size: 0px;
+	line-height: 0px;
+	border-top: 1px dotted White;
+}

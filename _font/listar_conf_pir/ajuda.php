@@ -1,0 +1,9 @@
+<?php
+$Tela = "a Ajuda";
+
+//Monta o vetor de Campo
+$vetCampo['descricao'] = CriaVetTabela('Descrição');
+$vetCampo['codigo'] = CriaVetTabela('Código');
+
+$sql = 'select * from ajuda order by descricao';
+?>
